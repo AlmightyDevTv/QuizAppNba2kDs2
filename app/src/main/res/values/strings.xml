@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizAppNba2kDs</string>
+    <string name="question1">Nba 2k19 is a basketball game</string>
+    <string name="queston2">Nba 2k19 came out this year</string>
+    <string name="question3">Nba 2k19 the game was made by ronnie 2k</string>
+    <string name="question4">Nba 2k19 is a worldwide game</string>
+    <string name="question5">Nba 2k19 sold alot of copies</string>
+    <string name="TrueButton">True</string>
+    <string name="FalseButton">False</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<LinearLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#123456"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/question1"
+android:id="@+id/question1"/>
+
+
+<Button
+android:id="@+id/button1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@+id/TrueButton" />
+
+
+<Button
+android:id="@+id/button2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@+id/FalseButton"/>
+
+
+    </LinearLayout>
