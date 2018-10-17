@@ -1,12 +1,11 @@
-package com.patterson.dsmith.quizappnba2kds;
+package com.patterson.dsmith.quizapp2kds;
 
-import  android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,13 +22,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         question = (TextView) findViewById(R.id.question1);
-        truebutton= (Button) findViewById(R.id.TrueButton);
-        falsebutton = (Button) findViewById(R.id.FalseButton);
+        truebutton= (Button) findViewById(R.id.button1);
+        falsebutton = (Button) findViewById(R.id.button2);
+
+        truebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"correct",Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
-
-
-
+        falsebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"incorrect",Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
+
 }
